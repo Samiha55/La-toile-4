@@ -1,24 +1,56 @@
-
-.sujet{
+.sujet {
     display: flex;
     justify-content: space-between;
-    gap:20px;
+    gap: 20px;
+    background-image: url("Assets/image\ la\ mer.jpg");
+    background-size: cover;
+    border-radius: 10px;
 
 }
 
 
-.nav{
-    background-color: rgb(148, 136, 150);
+.nav {
+    background-image: url("Assets/grand\ salon.jpeg");
+    background-size: cover;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
 }
 
-.link{
+.link {
     color: yellowgreen;
 }
 
-.para 7{
-    color:rgb(0, 157, 255);
+.para 7 {
+    color: rgb(0, 157, 255);
 
 }
-.h2{
+
+.h2 {
     color: blue;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(117, 155, 178);
+}
+
+.titre {
+    color: blue;
+    font-family: Times New Roman;
+    font-size: 30px;
+}
+
+.link {
+    color: blue;
+    font-family: Times New Roman;
+    font-size: 30px;
+}
+
+.p {
+    color: white;
+}
+
+.P {
+    border-radius: 10px;
+    background-color: rgb(117, 155, 178);
 }
