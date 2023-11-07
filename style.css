@@ -1,0 +1,24 @@
+
+.sujet{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+
+}
+
+
+.nav{
+    background-color: rgb(148, 136, 150);
+}
+
+.link{
+    color: yellowgreen;
+}
+
+.para 7{
+    color:rgb(0, 157, 255);
+
+}
+.h2{
+    color: blue;
+}
