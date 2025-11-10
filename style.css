@@ -1,77 +1,150 @@
-.sujet {
+#container {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    background-image: url("Assets/image\ la\ mer.jpg");
-    background-size: cover;
+    justify-content: center;
+    background-color: bisque;
+    width: 100%;
+    margin: 20px;
+}
+
+.deuxdiv {
+    display: flex;
     border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
 
 }
 
 
-.nav {
-    background-image: url("Assets/grand\ salon.jpeg");
-    background-size: cover;
-    justify-content: space-evenly;
-    text-align: center;
-    padding: 30px;
-    border-radius: 10px;
+.left {
+    display: block;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
 }
 
-.link {
-    color: yellowgreen;
-}
-
-.para 7 {
-    color: rgb(0, 157, 255);
-
-}
-
-.h2 {
-    color: rgb(0, 13, 255);
-    padding: 20px;
-    border-radius: 10px;
-    background-color: rgb(117, 155, 178);
-}
-
-.titre {
-    color: blue;
-    font-family: Times New Roman;
-    font-size: 30px;
-}
-
-.link {
-    color: rgba(0, 0, 255, 0.678);
-    font-family: Times New Roman;
-    font-size: 30px;
-}
-
-.p {
-    color: white;
-}
-
-.P {
-    border-radius: 10px;
-    background-color:rgb(117, 155, 178);
+.picture {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 
 
-.ecole{
-    border-radius:10px; ;
-    background-color: rgb(117, 155, 178);
-    padding: 20px;
-    width: 350px;
+.right {
+    display: block;
+    justify-content: space-around;
+    width: 500px;
+    height: 400px;
+    background-color: orange;
+    background-repeat: no-repeat;
+
+}
+
+ /* .form { 
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nomprenom {
+    display: flex;
+    margin-left: 30px;
+    gap: 10px;
     
+
+    
+
 }
 
-.P2{
+.nom {
+    
+    border: solid;
+    margin-bottom: 10px;
 
-    color: black;
+}
+
+.prenom {
+    
+    border: solid;
+    margin-bottom: 10px;
+
+
+}
+
+.mailpass{
+    display: block;
+    
+
+
+    
+
+
+}
+
+.email {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    margin-left: 30px;
+    
+    border: solid;
+    margin-bottom: 10px;
+
+
+}
+
+.motdepass {
+    
+    border: solid;
+    margin-bottom: 10px;
+    margin-left: 30px
+}
+
+.bouton {
+    width: 150px;
+    height: 30px;
+    border: solid;
+}*/ */
+
+.bouton {
+    margin-top: 10px;
+    margin-left: 30px
+}
+
+/* .nom {
+    margin-left: 10px;
+}
+
+.prenom {
+    margin-left: 10px;
+
+
+}
+
+.email {
+    margin-left: 10px;
+    margin-top: 10px;
+} */
+
+
+/*.password {
+    
+    margin-left: 10px;
+    margin-top: 10px;
+}*/
+
+.motdepass{
+    margin-left: 10px;
+    margin-top: 10px;
+
 }
 
 
+h2 {
+    text-align: center;
+}
 
-
-
-
-
+h3 {
+    text-align: center;
+}
